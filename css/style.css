@@ -8,11 +8,14 @@
 body{
 
     display: flex;
+    
 }
 .sidebar{
     background-color:#e65c4f;
-    height: 100vh;
-    width: 15rem;
+    height: 180vh;
+    width: 15rem; 
+    
+
 }
 .logo img{
     width: 50px;

@@ -101,3 +101,16 @@ function updateLineChart(data) {
         }
     });
 }
+
+// Optional JavaScript to add the 'sticky' class to the sidebar when scrolling
+window.onscroll = function() {
+    var sidebar = document.querySelector(".sidebar");
+    var topOffset = sidebar.offsetTop;
+  
+    if (window.pageYOffset > topOffset) {
+      sidebar.classList.add("sticky");
+    } else {
+      sidebar.classList.remove("sticky");
+    }
+  };
+  
