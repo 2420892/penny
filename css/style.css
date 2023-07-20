@@ -6,12 +6,12 @@
     font-family: 'Playfair Display', serif;
 }
 body{
-
+    background-color:#E9EEF2;
     display: flex;
 }
 .sidebar{
     background-color:#e65c4f;
-    height: 100vh;
+    height: 350vh;
     width: 15rem;
 }
 .logo img{
@@ -157,6 +157,34 @@ body{
     border: none;
     color: #449342;
 }
+
+.textwel{ 
+    padding-top: 15rem;
+}
+.head{ 
+    text-align: center;
+    padding-left: 9rem;
+}
+.p{ 
+    font-size: 1.5rem;
+}
+.img{
+    padding-top: 3rem;
+}
+.move{ 
+    padding-left: 9rem;
+}
+.img-2{ 
+    /* padding-left: 8rem;
+    padding-top: 9rem; */
+    margin-top: 3.5rem;
+    width: 28rem;
+}
+
+.ABOUTLANDING {
+    margin-top: 2rem;
+}
+
 @media screen and (max-width:600px){
     .budgetContainer{
         font-size: 14px;
