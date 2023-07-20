@@ -10,7 +10,7 @@ body{
     display: flex;
 }
 .sidebar{
-    background-color:black;
+    background-color:#e65c4f;
     height: 100vh;
     width: 15rem;
 }
