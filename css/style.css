@@ -165,3 +165,38 @@ body{
         grid-template-columns: 1fr;
     }
 }
+/* Investing */
+#head3 {
+  font-size: 1.3rem;
+  background-color: #326789;
+  padding: 3rem;
+  color: white;
+}
+#img {
+  height: 30rem;
+  width: 100%;
+}
+#head5 {
+  position: absolute;
+  top: 13%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+#ht {
+  background-color: #78a6c8;
+  color: white;
+}
+.info1 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.back{
+  background-color: #E9EEF2;
+}
+p{
+  font-size: 1.5rem;
+}
+#bod{
+    padding-left: 15rem;
+}
